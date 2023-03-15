@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/padding_20_dp"
+    tools:context=".ViewProfileActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:background="@color/dgreen"
+        android:visibility="visible"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:background="@color/dgreen"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/view_profile_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/profile_img"/>
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="Name"
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/view_profile_image"
+                android:textColor="@color/grey"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/view_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_tv"
+                android:layout_marginBottom="20dp"
+                android:background="@null"
+                android:enabled="false"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="@dimen/padding_10_dp"
+                android:text="Username"
+                android:textColor="@color/white"
+                android:textCursorDrawable="@null"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bio_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="Bio"
+                android:layout_below="@id/view_username"
+                android:textColor="@color/grey"
+                android:layout_marginLeft="10dp"/>
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

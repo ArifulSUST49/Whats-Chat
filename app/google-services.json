@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1040602251918",
+    "project_id": "whats-chat-7ea90",
+    "storage_bucket": "whats-chat-7ea90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040602251918:android:e114cecbcf2a1ec53affdf",
+        "android_client_info": {
+          "package_name": "com.freecode.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040602251918-5egpogkrtovtp688qir04ucc4mjkfdti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUiLlh8dv9pekVx9dP_YUf8xqD4r47ZPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040602251918-5egpogkrtovtp688qir04ucc4mjkfdti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
